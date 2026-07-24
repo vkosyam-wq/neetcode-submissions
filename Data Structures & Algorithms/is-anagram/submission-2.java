@@ -44,6 +44,7 @@ class Solution {
             if (!tHash.get(sString).equals(sInteger)) return false;
         }
         return true;
+        //O(n) Solution 
 
         
     }
