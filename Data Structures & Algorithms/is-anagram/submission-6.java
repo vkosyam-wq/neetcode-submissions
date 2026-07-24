@@ -14,6 +14,8 @@ class Solution {
             tHash.put(t.charAt(i), tHash.getOrDefault(t.charAt(i), 0) + 1);
         }
         return (sHash.equals(tHash));
+        //Cleaner Version of submission-2, getOrDefault usage instead of incrementing by checking if key exists.//
+
 
         
     }
